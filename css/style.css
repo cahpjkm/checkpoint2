@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+body{
+    font-family: 'Asap', sans-serif;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 650px;
+    background: url(../images/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#logo-nome{
+    width: 50%;
+}
+
+#nome{
+    font-size: 35px;
+    float: left;
+    padding-top: 30px;
+    margin-left: 100px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 40px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    font-size: 15px;
+}
+
+#conteudo {
+    width: 100%;
+}
+
+#texto_comeco {
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    color: #fff;
+    margin-top: -360px;
+    padding-left: 100px;
+    line-height: 40px;
+}
+
+#imagens_comeco {
+    display: flex;
+    justify-content: center;
+    margin-top: 320px;
+}
+
+.imagem_comeco {
+    width: 300px;
+    height: 300px;
+}
+
+.texto_comeco{
+    margin-top: -30px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+#sobre {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre_texto{
+    width: 50%;
+}
+
+.titulos {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.textos{
+    font-size: 15px;
+    line-height: 20px;
+}
