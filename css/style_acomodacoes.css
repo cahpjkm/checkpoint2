@@ -210,3 +210,30 @@ footer {
     line-height: 30px;
 }
 
+
+.diret{
+    display: inline-block;
+    width: 100%;
+    padding: 20px ;
+}
+
+.fotosacomo{
+    width: 50%;
+    float: left;
+    
+
+}
+.fotoacomodacao{
+    width: 32%;
+    height: 300px;
+      
+}
+
+.tex{
+    width: 40%;
+    height: 200px;
+    float: left; 
+    padding: 20px;   
+    
+}
+
