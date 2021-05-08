@@ -209,3 +209,7 @@ footer {
     font-size: 23px;
     line-height: 30px;
 }
+
+.botao_servico:hover{
+    cursor: pointer
+}

@@ -212,88 +212,77 @@ footer {
 
 
 .esquerda, .direita {
-    display: inline;
+    display: inline-block;
     width: 100%;
+    min-height: 400px;
+}
 
+.esquerda{
+    background-color: white;
+    padding-bottom: 45px ;
 }
 
 .imgesquerda{
     width: 50%;
+    min-height: 350px;
     float: left;
 }
-
-.texto{
-    width: 50%;
-    float: left;
+.restaurante{
+    width: 80%;
+    padding: 40px 0 0 100px;
 }
-
-
-
-/* .h2esquerda{
-    padding: 150px 0 0 80px;
-    font-size: 50px;
-}
-
-.pesquerda{
-    width: 60%;
-    padding: 10px 0 0 80px;
-    font-size: 25px;
-    text-align: justify;
-}
-
-.imgdireita{
-    flex: 1;
-    margin: 100px 100px 10px 10px;
-}
-
-.direita{
-    background-color: #dbdbdb;
-} */
-
-/* .yoga{
-    width: 50%;
-}
-
 .textodireita{
+    width: 50%;
+    min-height: 550px;
     float: left;
 }
 
 .h2direita{
-    padding: 150px 0 0 80px;
-    font-size: 50px;
+    padding-top: 200px;
+    font-size: 40px;
 }
 
 .pdireita{
+    font-size: large;
     width: 60%;
-    padding: 10px 0 0 80px;
-    font-size: 25px;
     text-align: justify;
-} */
-
-/*
-.servicos{
-    display: flex;
-    justify-content: center;
 }
 
-.servico {
-    width: 17%;
-    background-color: #fff;
-    margin: 10px 10px;
-    -webkit-box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.32);
-    -moz-box-shadow:    0px 10px 12px 0px rgba(0, 0, 0, 0.32);
-    box-shadow:         0px 10px 12px 0px rgba(0, 0, 0, 0.32);
+.imgdireita{
+    width: 50%;
+    min-height: 350px;
+    float: right;
 }
 
-.imagem_servico{
-    width: 230px;
-    height: auto;
-    justify-content: center;
+.textoesquerda{
+    width: 50%;
+    min-height: 500px;
+    float: left;
 }
 
-.texto_servico{
-    margin-top: 10px;
-    line-height: 25px;
-    margin-left: 10px;
+.h2esquerda{
+    padding: 200px 0 0 300px;
+    font-size: 40px;
 }
-*/
+
+.pesquerda{
+    padding: 0 0 0 300px;
+    font-size: large;
+    width: 60%;
+    text-align: justify;
+}
+
+.yoga{
+    width: 80%;
+    padding: 40px 0 0 90px;
+}
+
+.massagem{
+    width: 80%;
+    padding: 40px 0 0 100px;
+}
+
+.barco{
+    width: 80%;
+    padding: 40px 0 30px 90px;
+}
