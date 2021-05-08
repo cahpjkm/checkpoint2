@@ -215,23 +215,21 @@ footer {
 
 
 
-.esquerda {
+
+.esquerda, .direita {
     display: flex;
+    width: 100%;
+
 }
 
 .imgesquerda{
     flex: 1;
-    width: 100%;
-    margin: 10px 10px 10px 100px;
+    margin: 100px 10px 10px 100px;
 }
 
-
-
 .h2esquerda{
-    padding: 90px 0 0 80px;
+    padding: 150px 0 0 80px;
     font-size: 50px;
-
-
 }
 
 .pesquerda{
@@ -240,17 +238,35 @@ footer {
     font-size: 25px;
     text-align: justify;
 }
-    
 
+.imgdireita{
+    flex: 1;
+    margin: 100px 100px 10px 10px;
+}
 
+.direita{
+    background-color: #dbdbdb;
+}
 
+/* .yoga{
+    width: 50%;
+}
 
+.textodireita{
+    float: left;
+}
 
+.h2direita{
+    padding: 150px 0 0 80px;
+    font-size: 50px;
+}
 
-
-
-
-
+.pdireita{
+    width: 60%;
+    padding: 10px 0 0 80px;
+    font-size: 25px;
+    text-align: justify;
+} */
 
 /*
 .servicos{
