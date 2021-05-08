@@ -211,23 +211,25 @@ footer {
 }
 
 
-
-
-
-
-
 .esquerda, .direita {
-    display: flex;
+    display: inline;
     width: 100%;
 
 }
 
 .imgesquerda{
-    flex: 1;
-    margin: 100px 10px 10px 100px;
+    width: 50%;
+    float: left;
 }
 
-.h2esquerda{
+.texto{
+    width: 50%;
+    float: left;
+}
+
+
+
+/* .h2esquerda{
     padding: 150px 0 0 80px;
     font-size: 50px;
 }
@@ -246,7 +248,7 @@ footer {
 
 .direita{
     background-color: #dbdbdb;
-}
+} */
 
 /* .yoga{
     width: 50%;
