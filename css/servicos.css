@@ -203,14 +203,11 @@ footer {
 .botoes_footer{
     line-height: 35px;
 }
-
 .titulos_footer{
 
     font-size: 23px;
     line-height: 30px;
 }
-
-
 .esquerda, .direita {
     display: inline-block;
     width: 100%;
