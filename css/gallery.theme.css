@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+body{
+  font-family: 'Asap', sans-serif;
+  background-color:white;
+}
+
+nav{
+  width: 100%;
+  background-color: aqua;
+}
+
+nav ul{
+  list-style: none;
+  text-align: right;
+  margin-right: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 40px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 500px;
+  overflow: hidden;
+  text-align: center;
+  background: #f0f2f5;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  background-color: #000;
+  color: #f3f3f3;
+  margin-top: -1px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.redes_sociais{
+  width: 30%;
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.menu_footer{
+  width: 40%;
+  float: right;
+  margin-left: -60px;
+  margin-top: 30px;
+}
+
+.botoes_footer{
+  line-height: 35px;
+}
+
+.titulos_footer{
+
+  font-size: 23px;
+  line-height: 30px;
+}

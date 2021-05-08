@@ -2,9 +2,10 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style_acomodacoes.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="css/style_acomodacoes.css">
+        <link rel="stylesheet" href="css/reset.css"> -->
+        <link rel="stylesheet" href="./css/gallery.min.css">
+        <link rel="stylesheet" href="./css/gallery.theme.css">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
         <title>Pousada</title>
@@ -30,147 +31,107 @@
             </nav>
         </header>
 
-        <div class="carousel">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-                    </button>
-                    
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
-                    </button>
+        <div class="gallery autoplay items-3">
 
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
-                    </button>
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
 
-                </div>
-                
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/images/servico1.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/servico2.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/servico3.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
+            <figure class="item">
+                <h1><img src="./images/acomo1.0.jpg" ></h1>
+            </figure>
+            
+            <figure class="item">
+                <h1><img src="./images/acomo1.1.jpg" ></h1>
+            </figure>
 
-        <br>
+            <figure class="item">
+                <h1><img src="./images/acomo1.2.jpg" ></h1>
+            </figure>
 
-        <div class="carousel">
-            <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/images/imagem_comeco1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/imagem_comeco3.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/imagem5.JPG" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
+            <div class="controls">
+                <a href="#item-1" class="control-button">__</a>
+                <a href="#item-2" class="control-button">__</a>
+                <a href="#item-3" class="control-button">__</a>
+            </div>   
 
-        <br>
-
-
-        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/images/imagem_comeco1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/images/imagem_comeco3.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/images/imagem5.JPG" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
         </div>
 
 
+        <div class="gallery autoplay items-3">
+
+            <div id="item-4" class="control-operator"></div>
+            <div id="item-5" class="control-operator"></div>
+            <div id="item-6" class="control-operator"></div>
+
+            <figure class="item">
+                <h1><img src="./images/acomodacao2.0.jpg"></h1>
+            </figure>
+            
+            <figure class="item">
+                <h1><img src="./images/acomodacao2.1.jpg"></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><img src="./images/acomodacao2.2.jpg" ></h1>
+            </figure>
+            
+            <div class="controls">
+                <a href="#item-4" class="control-button">__</a>
+                <a href="#item-5" class="control-button">__</a>
+                <a href="#item-6" class="control-button">__</a>
+            </div>
+                       
+        </div>
 
 
-          
+        <div class="gallery autoplay items-3">
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-        </script>
+            <div id="item-7" class="control-operator"></div>
+            <div id="item-8" class="control-operator"></div>
+            <div id="item-9" class="control-operator"></div>
+
+            <figure class="item">
+                <h1><img src="./images/acomodacao1.0.jpg"></h1>
+            </figure>
+            
+            <figure class="item">
+                <h1><img src="./images/acomodacao1.1.jpg"></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><img src="./images/acomodacao1.2.jpg" ></h1>
+            </figure>
+
+            <div class="controls">
+                <a href="#item-7" class="control-button">__</a>
+                <a href="#item-8" class="control-button">__</a>
+                <a href="#item-9" class="control-button">__</a>
+            </div>   
+
+        </div>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <footer>
             <div class="redes_sociais">
