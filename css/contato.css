@@ -1,12 +1,24 @@
+
+#h1{
+    width: 10%;
+    min-height: 50px;
+    font-size: 50px;
+    padding: 50px 0 0 5px;
+    margin-bottom: 15px;
+}
+
 form{
-    width: 50%;
-    margin: 70px;
+    width: 99%;
+    margin: 10px;
+    min-height: 400px;
 }
 
 label{
+    font-size: large;
     display: inline-block;
     width: 18%;
-    margin-bottom: 30px;
+    min-height: 20px;
+    margin-top: 30px;
 }
 
 input{
@@ -19,10 +31,20 @@ header{
 }
 
 #botaoContato{
-    margin: 5px 0 5px 40px;
+    margin: 10px 0 5px 25%;
+    width: 50%;
+    min-height: 50px;
+    border-radius: 5px;
+    background-color: rgb(212, 212, 212);
+    font-weight: bold;
+
 }
 
-#h1{
-    font-size: 40px;
-    padding: 10px 0 0 20px;
+#botaoContato:hover{
+    background-color: orange;
+    transition: 0.3s;
+}
+
+textarea{
+    width: 99%;
 }
