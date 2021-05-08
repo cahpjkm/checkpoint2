@@ -10,7 +10,7 @@ body{
 #cabecalho{
     width: 100%;
     height: auto;
-    background-color:#818CA8;
+    background: url(../images/fundo4.jpeg);
     background-repeat: no-repeat;
     background-position: 80% 10%;
     background-attachment: fixed;
@@ -210,10 +210,3 @@ footer {
     line-height: 30px;
 }
 
-.carousel{
-    width: 400px;
-    height: 400px;
-    float: inline-start;
-    /* float: left; */
-    
-}
