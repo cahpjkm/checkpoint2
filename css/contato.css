@@ -1,0 +1,28 @@
+form{
+    width: 50%;
+    margin: 70px;
+}
+
+label{
+    display: inline-block;
+    width: 18%;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 25%;
+    min-height: 30px;
+}
+
+header{
+    background-color: black;
+}
+
+#botaoContato{
+    margin: 5px 0 5px 40px;
+}
+
+#h1{
+    font-size: 40px;
+    padding: 10px 0 0 20px;
+}
